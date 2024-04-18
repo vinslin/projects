@@ -19,7 +19,7 @@ def get_location_from_phone_number(phone_number):
     region = geocoder.description_for_number(samNumber,'en')
     service_provider = carrier.name_for_number(samNumber, "en")
     #st.write(region)
-    api_key = '8d84206c5a29446787fef9be70275ebf'
+    api_key = 'YOUR OPENCAGE API'
     geocoder = OpenCageGeocode(api_key)
     query=str(region)
     results=geocoder.geocode(query)
