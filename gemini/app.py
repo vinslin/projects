@@ -23,7 +23,7 @@ def separate_and_display_sentences(large_string):
 
 def generate_text(prompt, model_name="gemini-pro"):
     # Replace with your actual API key
-    api_key = "AIzaSyBSlif-91q43MbqYypAxPnshlKIbFGAT2c"
+    api_key = "YOUR API KEY"
     genai.configure(api_key=api_key)
 
     # Create the model instance
